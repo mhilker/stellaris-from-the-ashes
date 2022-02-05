@@ -1,0 +1,51 @@
+origin_from_the_ashes = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/origins_post_apocalyptic.dds"
+	picture = GFX_origin_post_apocalyptic
+
+	starting_colony = pc_nuked
+	habitability_preference = pc_nuked
+
+	description = "origin_from_the_ashes_effects"
+	potential = {
+		authority = {
+            NOT = {
+                value = auth_corporate
+            }
+        }
+	}
+	possible = {
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence
+			}
+		}
+		ethics = {
+			NOR = {
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+				value = ethic_xenophile
+				value = ethic_fanatic_xenophile
+			}
+		}
+		civics = {
+			NOT = {
+				value = civic_agrarian_idyll
+			}
+			NOR = {
+				text = civic_tooltip_not_anglers
+				value = civic_anglers
+				value = civic_corporate_anglers
+			}
+		}
+	}
+
+	traits = {
+		trait = trait_stoic_ashlander
+	}
+	random_weight = { base = 5 }
+	#modifier = {
+	#	country_war_exhaustion_mult = -0.1
+	#	planet_pops_consumer_goods_upkeep_mult = -0.1
+	#}
+}

@@ -1,0 +1,10 @@
+﻿l_english:
+  origin_from_the_ashes:0 "From the Ashes"
+  origin_from_the_ashes_desc:0 "A few thousand years ago, this society had three planets under its control. An unknown force attacked and cleansed their worlds with nuclear fire. The survivors desperatly tried to survive on their homeworld. Eventually, they adapted to their planets devastated ecosystem."
+  origin_from_the_ashes_effects:4 "- Capital starts as a §HTomb World§!\n- Habitability preference is set to §H$trait_pc_from_the_ashes_preference$§!\n- Gain the ability to "terraform" worlds to §HTomb World§!s."
+
+  trait_pc_from_the_ashes_preference:0 "Tomb World Preference"
+  trait_pc_from_the_ashes_preference_desc:1 "$trait_pc_arctic_preference_desc$"
+
+  trait_stoic_ashlander:0 "Stoic Ashlander"
+  trait_stoic_ashlander_desc:0 "§LThousand years of adaption to Tomb Worlds makes these people loath ordinary biomes.§!"
